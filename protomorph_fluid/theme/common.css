@@ -403,6 +403,54 @@ a:hover	{
 	text-decoration: underline;
 }
 
+/* Inner box-model clearing */
+.clearfix:before,
+.clearfix:after,
+.wrap-inner:before,
+.wrap-inner:after,
+fieldset dl:before,
+fieldset dl:after,
+ul.topiclist dl:before,
+ul.topiclist dl:after,
+dl.polls:before,
+dl.polls:after,
+.inner:before,
+.inner:after,
+.action-bar:before,
+.action-bar:after,
+.notification_text:before,
+.notification_text:after,
+.tabs-container:before,
+.tabs-container:after,
+#tabs > ul:before,
+#tabs > ul:after,
+#minitabs > ul:before,
+#minitabs > ul:after,
+.postprofile .avatar-container:before,
+.postprofile .avatar-container:after,
+div.jumpbox-return:before,
+div.jumpbox-return:after,
+.search-header:before,
+.search-header:after {
+	display: table;
+	content: " ";
+}
+
+.clearfix:after,
+.wrap-inner:after,
+fieldset dl:after,
+ul.topiclist dl:after,
+dl.polls:after,
+.inner:after,
+.action-bar:after,
+.notification_text:after,
+.tabs-container:after,
+#tabs > ul:after,
+#minitabs > ul:after,
+.postprofile .avatar-container:after,
+div.jumpbox-return:after,
+.search-header:after { clear: both; }
+
 /* ========================================================================
  * Header
  * ======================================================================== */
