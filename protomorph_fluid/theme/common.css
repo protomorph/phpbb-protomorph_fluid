@@ -276,13 +276,14 @@ body {
 	padding: 0;
 	background-attachment: fixed;
 	background-color: #fff;
+	/* https://unsplash.com/ */
 	background-image: url("./images/bg.jpg");
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 					background-size: cover;
 	line-height: 1.42857;
-	font-family: "Open Sans",sans-serif;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	color: #353535;
