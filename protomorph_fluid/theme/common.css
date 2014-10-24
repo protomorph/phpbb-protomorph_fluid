@@ -429,9 +429,7 @@ dl.polls:after,
 .postprofile .avatar-container:before,
 .postprofile .avatar-container:after,
 div.jumpbox-return:before,
-div.jumpbox-return:after,
-.search-header:before,
-.search-header:after {
+div.jumpbox-return:after {
 	display: table;
 	content: " ";
 }
@@ -448,8 +446,7 @@ dl.polls:after,
 #tabs > ul:after,
 #minitabs > ul:after,
 .postprofile .avatar-container:after,
-div.jumpbox-return:after,
-.search-header:after { clear: both; }
+div.jumpbox-return:after { clear: both; }
 
 /* ========================================================================
  * Header
@@ -1713,7 +1710,8 @@ form > p.post-notice strong { line-height: 20px; }
 	background: transparent;
 }
 
-.hidden { display: none; }
+.hidden,
+ul.linklist > li.hidden { display: none; }
 
 @media (min-width: 768px) {
 	ul.linklist > li.hidden { display: none; }
@@ -1731,51 +1729,6 @@ form > p.post-notice strong { line-height: 20px; }
 }
 
 .member-search strong { font-size: 12px; }
-
-/* Inner box-model clearing */
-.clearfix:before,
-.clearfix:after,
-.wrap-inner:before,
-.wrap-inner:after,
-fieldset dl:before,
-fieldset dl:after,
-ul.topiclist dl:before,
-ul.topiclist dl:after,
-dl.polls:before,
-dl.polls:after,
-.inner:before,
-.inner:after,
-.action-bar:before,
-.action-bar:after,
-.notification_text:before,
-.notification_text:after,
-.tabs-container:before,
-.tabs-container:after,
-#tabs > ul:before,
-#tabs > ul:after,
-#minitabs > ul:before,
-#minitabs > ul:after,
-.postprofile .avatar-container:before,
-.postprofile .avatar-container:after,
-div.jumpbox-return:before,
-div.jumpbox-return:after {
-	display: table;
-	content: " ";
-}
-
-.clearfix:after,
-.wrap-inner:after,
-fieldset dl:after,
-ul.topiclist dl:after,
-dl.polls:after,
-.inner:after,
-.action-bar:after,
-.notification_text:after,
-.tabs-container:after,
-#tabs > ul:after,
-#minitabs > ul:after,
-.postprofile .avatar-container:after,
-div.jumpbox-return:after { clear: both; }
 
 /* =======================================================================
  * Junpbox
@@ -1998,8 +1951,6 @@ li.notification-disapproved strong { color: #b3001e; }
 .dropdown-page-jump.dropdown-up .dropdown { bottom: 20px; }
 
 .dropdown-page-jump input.tiny { width: 50px; }
-
-.dropdown .clone { display: none; }
 
 .responsive .dropdown .clone { display: inherit; }
 
