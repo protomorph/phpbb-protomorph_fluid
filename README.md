@@ -1,16 +1,16 @@
-ProtoMorph Fluid
+ProtoMorph Fluid v1.0.0-RC1
 ======================
 
-Style for [phpBB][2]
+A full width flat style for [phpBB][2]
 
 #### Requirements
 
-- phpBB 3.1 RC-6
+- phpBB 3.1
 
 #### To Do
 
-- Better RTL support
-- Further bug fixes
+- Improve RTL support
+- Further minor bug fixes
  - ~~Fix footer navbar responsive dropdown~~
 
 #### License
