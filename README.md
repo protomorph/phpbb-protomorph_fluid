@@ -11,7 +11,6 @@ A full width flat style for [phpBB][2]
 
 - Improve RTL support
 - Further minor bug fixes
- - ~~Fix footer navbar responsive dropdown~~
 
 #### License
 
