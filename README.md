@@ -7,6 +7,10 @@ A full width flat style for [phpBB][2]
 
 - phpBB 3.1
 
+#### Features
+
+Coming soon!
+
 #### To Do
 
 - Improve RTL support
