@@ -1,7 +1,7 @@
 ProtoMorph Fluid v1.0.0-RC1
 ======================
 
-A full width flat style for [phpBB][2]
+A full width flat style for [phpBB 3.1][2]
 
 #### Requirements
 
@@ -9,7 +9,11 @@ A full width flat style for [phpBB][2]
 
 #### Features
 
-Coming soon!
+- PM progress bar for used/remaining space.
+- Scroll to top of page.
+- External links open in a new tab/window.
+- Styled checkboxes and radio buttons.
+- Styled tool tips (from Bootstrap).
 
 #### To Do
 
