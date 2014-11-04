@@ -14,6 +14,7 @@ A full width flat style for [phpBB 3.1][2]
 - External links open in a new tab/window.
 - Styled checkboxes and radio buttons.
 - Styled tool tips (from Bootstrap).
+- Syntax highlighting (highlight.js).
 
 #### To Do
 
