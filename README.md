@@ -18,7 +18,6 @@ A full width flat style for [phpBB 3.1][2]
 
 #### To Do
 
-- Further improve RTL support
 - Fix minor bugs
 
 #### License
