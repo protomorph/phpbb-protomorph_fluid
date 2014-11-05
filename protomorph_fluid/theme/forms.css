@@ -689,6 +689,7 @@ input.disabled { color: #bbbbbb; }
 	float: none;
 	padding: 0;
 	margin: 0;
+	width: auto;
 	background-color: transparent;
 	border: 0;
 }
