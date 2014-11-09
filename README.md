@@ -19,7 +19,6 @@ A full width flat style for [phpBB 3.1][2]
 #### To Do
 
 - Fix minor bugs
-- Merge main stylesheets into stylesheet.css
 
 #### License
 
