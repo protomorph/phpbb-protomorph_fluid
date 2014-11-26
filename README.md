@@ -1,4 +1,4 @@
-ProtoMorph Fluid v1.0.0-RC2
+ProtoMorph Fluid v1.0.0-RC3
 ======================
 
 A full width flat style for [phpBB 3.1][2]
